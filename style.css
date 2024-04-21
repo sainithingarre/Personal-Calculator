@@ -1,0 +1,84 @@
+/* Updated styles for the calculator container */
+.calculator {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg,black, rgb(168, 81, 53), #200901); /* Gradient background */
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s infinite;
+    position: relative;
+}
+
+/* Animation for the gradient background */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Updated styles for a calculator header */
+.calculator-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* White text color for the header */
+}
+
+/* Updated styles for the display */
+#display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFD600; /* Yellow background color for the display */
+    color: #333; /* Text color for the display */
+}
+
+/* Updated styles for the memory buttons */
+.memory {
+    background-color: #FF9800;
+    color: white;
+}
+
+/* Updated styles for buttons */
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Updated styles for clear button */
+.clear {
+    background-color: #F44336;
+}
+
+/* Updated styles for equals button */
+.equals {
+    background-color: #008CBA;
+}
+
+/* Body background color */
+body {
+    background-color: #4d4d4e; /* Soft blue background for the body */
+    margin: 0;
+    padding: 0;
+}
